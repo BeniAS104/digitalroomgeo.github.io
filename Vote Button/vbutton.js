@@ -16,7 +16,7 @@ let soundCounter = 0;
 let originalBorderStyle; // Variable to store the original border style
 
 function playsound() {
-    const sounds = ['Images/SUIII.mp3', '../Images/jixaw-metal-pipe-falling-sound.mp3', '../Images/minecraft-train-whistle-cave-sound.mp3', '../Images/bruh.mp3'];
+    const sounds = ['Images/SUIII.mp3', 'Images/jixaw-metal-pipe-falling-sound.mp3', 'Images/minecraft-train-whistle-cave-sound.mp3', 'Images/bruh.mp3'];
     const audioElement = new Audio(sounds[soundCounter]);
     audioElement.play();
 
