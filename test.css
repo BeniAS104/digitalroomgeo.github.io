@@ -10,6 +10,7 @@
  body 
  {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items:center;
     min-height: 100vh;
@@ -87,4 +88,32 @@
  
  .buttonpush:active {
    transform: scale(0.95); 
+}
+
+.buttonpush:active::after {
+   content: '';
+   display: block;
+   position: absolute;
+   top: 25%;
+   left: 25%;
+   width: 50%;
+   height: 50%;
+   background-color: #e48d0a91;
+   border-radius: 40px;
+   z-index: -1;
+}
+
+
+ #timestamp-container {
+
+   color:whitesmoke;
+   font-size: 20px;
+   margin-top: 40px;
+ }
+
+ #timestamp-container2 {
+
+   color:whitesmoke;
+   font-size: 20px;
+   margin-top: 20px;
  }
