@@ -2,7 +2,7 @@
 let soundCounter = 0;
 
 function playsound() {
-    const sounds = ['SUIII.mp3', 'jixaw-metal-pipe-falling-sound.mp3', 'minecraft-train-whistle-cave-sound.mp3', 'bruh.mp3'];
+    const sounds = ['Sounds/familiada.mp3'];
     const audioElement = new Audio(sounds[soundCounter]);
     audioElement.play();
     soundCounter = (soundCounter + 1) % sounds.length;

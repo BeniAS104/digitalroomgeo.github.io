@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vote Button</title>
+    <link rel="stylesheet" href="t.css" />
+    <link rel="icon" href="Images/mark.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="image-container">
+      <img
+        src="../Images/WS-45942.jpg"
+        alt="Blurred Image"
+        id="blurredImage"
+        onclick="openModal()"
+      />
+    </div>
+
+    <!-- The modal -->
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img
+        class="modal-content"
+        src="../Images/WS-45942.jpg"
+        alt="Large Image"
+      />
+    </div>
+
+    <script src="t.js"></script>
+  </body>
+  <script src="Vote Button/vbutton.js"></script>
+</html>

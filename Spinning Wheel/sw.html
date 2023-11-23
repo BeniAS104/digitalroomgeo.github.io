@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="vbutton.css" />
-    <link rel="icon" href="../Images/greentick.png" type="image/x-icon" />
+    <link rel="stylesheet" href="sw.css" />
+    <link rel="icon" href="Images/sw.png" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&display=swap"
@@ -13,14 +13,11 @@
     <title>Vote Button</title>
   </head>
   <body>
-    <div class="box">Ready?</div>
-    <br />
-
-    <div class="circle-wrapper">
-      <div class="success circle"></div>
-      <div class="icon">
-        <i class="fa fa-check"></i>
-      </div>
+    <div id="wheel">
+      <div class="option" id="option1">Option 1</div>
+      <div class="option" id="option2">Option 2</div>
+      <div class="option" id="option3">Option 3</div>
     </div>
+    <script src="sw.js"></script>
   </body>
 </html>
